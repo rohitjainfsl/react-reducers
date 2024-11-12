@@ -1,8 +1,5 @@
-# React + Vite
+## Reducers in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo contains programs to understand the usage of reducer functions & the hook **useReducer** in react
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [ToDo List program](https://github.com/rohitjainfsl/react-reducers/tree/main/src/reducers)
