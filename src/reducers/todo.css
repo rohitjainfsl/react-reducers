@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+#todo {
+  width: 50vw;
+  min-width: 400px;
+  margin: 3rem auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+}
+#todo ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+#todo ul li.completed {
+  opacity: 0.6;
+}
+#todo ul li.completed svg {
+  pointer-events: none;
+}
+#todo ul li span {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.25rem;
+}
+#todo ul li svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#todo .inputs {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+#todo .inputs input,
+#todo .inputs button {
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid #9e9b9b;
+  border-radius: 0.5rem;
+}
+#todo .inputs input {
+  width: 70%;
+  padding: 0 0.5rem;
+}
+#todo .inputs button {
+  width: 26%;
+  cursor: pointer;
+}
